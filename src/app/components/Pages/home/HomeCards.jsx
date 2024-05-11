@@ -11,8 +11,8 @@ const data = [
 const HomeCards = () => {
   return (
     <div className='h-auto w-full flex flex-row justify-center m-12 gap-4'>
-        {data.map(e => (
-          <Card title={e.title} content={e.content} cols={data.length}></Card>
+        {data.map((e, index) => (
+          <Card key={index} title={e.title} content={e.content} cols={data.length}></Card>
         ))}
     </div>
   )
