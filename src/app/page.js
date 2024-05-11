@@ -1,5 +1,5 @@
 
-'use client'
+
 import { useState, useEffect } from "react";
 import Card from "./components/general/Card";
 import NavBar from "./components/layout/NavBar";
